@@ -21,10 +21,6 @@
 	This will generate a text file with the report.
 	the information will be appended with a time stamp.
 	
-.PARAMETER Version
-
-	This display the current Script version.
-	
 .INPUTS
 	
 	<Inputs if any, otherwise state None>
@@ -37,8 +33,8 @@
 	
 	Version:        0.1
 	Author:         Filipe Soares
-	Github Repo:	https://github.com/MyTech78
-	Creation Date:  
+	Github Repo:	https://github.com/MyTech78/PowerShell_PasswordGenerator
+	Creation Date:  04/10/2021
 	Purpose/Change: Initial script development
   
 .EXAMPLE
