@@ -26,15 +26,15 @@
         <GroupBox Header="Options" Grid.Row="1" Grid.Column="3" Grid.RowSpan="2" Margin="10">
             <StackPanel>
                 <CheckBox x:Name="CB_lowerCase" Margin="10" Content="Lower Case" IsChecked="True"/>
-                <CheckBox x:Name="CB_upperCase" Margin="10" Content="Upper Case"/>
-                <CheckBox x:Name="CB_numbers" Margin="10" Content="Numbers"/>
-                <CheckBox x:Name="CB_specialChar" Margin="10" Content="Symbols"/>
+                <CheckBox x:Name="CB_upperCase" Margin="10" Content="Upper Case" IsChecked="True"/>
+                <CheckBox x:Name="CB_numbers" Margin="10" Content="Numbers" IsChecked="True"/>
+                <CheckBox x:Name="CB_specialChar" Margin="10" Content="Symbols" IsChecked="True"/>
             </StackPanel>
         </GroupBox>
         <GroupBox Header="Number" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="3" Margin="10">
             <StackPanel Orientation="Horizontal">
                 <TextBlock Margin="37,10,10,10" Text="Number of Characters" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18"/>
-                <TextBox x:Name="TB_charNum" Margin="15,10,10,10" HorizontalAlignment="Right" Width="25" Height="27" VerticalAlignment="Center" Text="6" TextBlock.FontSize="18"/>
+                <TextBox x:Name="TB_charNum" Margin="15,10,10,10" HorizontalAlignment="Right" Width="25" Height="27" VerticalAlignment="Center" Text="8" TextBlock.FontSize="18"/>
             </StackPanel>
         </GroupBox>
         <GroupBox Header="Output" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="3" Margin="10">
